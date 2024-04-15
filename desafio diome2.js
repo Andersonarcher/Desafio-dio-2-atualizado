@@ -1,6 +1,5 @@
 //atribuir função com variavel pra vitoria e derrota do heroi e a o calculo da diferença 
-let vitorias=100
-let derrotas=16
+
 let nivel=""
 function calcular(vitorias,derrotas){
   let calculo=vitorias-derrotas
