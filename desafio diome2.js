@@ -1,3 +1,4 @@
+//atribuir função com variavel pra vitoria e derrota do heroi e a o calculo da diferença 
 let vitorias=100
 let derrotas=16
 let nivel=""
@@ -6,8 +7,7 @@ function calcular(vitorias,derrotas){
    ;
                                     
                                  
-           //classificaçao por nivel do heroi e mensagem:o heroi tem de saldo:*(calculo/vitorias)* e esta no nivel *(nivel)*
-                  //classificaçao por nivel do heroi e mensagem:o heroi tem de saldo:*(calculo/vitorias)* e esta no nivel *(nivel)*
+  //classificaçao por nivel do heroi e mensagem:o heroi tem de saldo:*(calculo/vitorias)* e esta no nivel *(nivel)*
                   if(calculo<=10){nivel="ferro" }
          else if(calculo>=11&&calculo<=20){nivel="bronze"}
          else if(calculo>=21&&calculo<=50){nivel="prata"}                        
