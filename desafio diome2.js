@@ -15,7 +15,7 @@ function calcular(vitorias,derrotas){
          else if(calculo>=91&&calculo<=100){nivel="lendario"}
           else {nivel="imortal"
                }
-//mensagem oficial
+//mensagem oficial mensagem:o heroi tem de saldo:*(calculo/vitorias)* e esta no nivel *(nivel)*
   console.log("o heroi tem de saldo "+ calculo+" e está no nivel "+nivel)}
    calcular(100,16)
                 
